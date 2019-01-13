@@ -48,7 +48,7 @@ void enter(BigInteger* pInt) {
 				ch -= 87;
 
 			} else if (ch <= '9') {
-				ch -= '0';
+				ch -= 48;
 			} else {
 				ch -= 55;
 			}
